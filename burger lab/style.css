@@ -1,0 +1,348 @@
+.head {
+    background: url(burger\ bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex: 1; */
+    width: 100%;
+    height: 575px;
+    background-color: red;
+    /* padding-right: 10; */
+    /* margin: auto; */
+
+}
+
+body {
+    /* margin: 0%; */
+    /* padding: 0%; */
+    /* font-family: 'Akaya Kanadaka'; */
+    font-size: 20px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    background-color: #ffffffaf;
+
+}
+
+li {
+    list-style: none;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+
+.list {
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    color: white;
+    gap: 50px;
+    list-style: none;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    /* align-self: center; */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+    background-color: black;
+
+}
+
+.logo {
+    padding-left: 40px;
+
+}
+
+.container1 {
+    background-color: #d6d8da60;
+    /* background-color: red; */
+
+}
+
+.container {
+    display: flex;
+    background-color: #d6d8da81;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.sbs {
+    display: flex;
+    /* flex: 1; */
+    /* position: relative; */
+    /* justify-content: space-around; */
+    /* align-items: flex-start; */
+    padding: 40px;
+    padding-left: 130px;
+    width: 15px;
+    height: 290px;
+    /* margin: 40px; */
+    /* background-color: yellow; */
+}
+
+.burg {
+    padding-bottom: 3%;
+
+}
+
+.burg1 {
+    padding-top: 67px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* background-color: orange; */
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: small;
+    font-weight: 20px;
+    padding-top: 1%;
+
+}
+
+h3 {
+    color: red;
+}
+
+.foot {
+    /* width: 60%; */
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+    align-items: center;
+    height: 200px;
+    background-color: rgba(33, 39, 48, 0.918)
+    /* background-color: aqua; */
+
+}
+
+.dopler {
+    text-align: center;
+    
+    width: 360px;
+    /* height: 90px; */
+    font-weight: 1%;
+    font-size: small;
+    padding-left: 60px;
+    font-size: 22px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    /* background-color: yellow; */
+
+}
+
+.reloader {
+    text-align: center;
+    /* letter-spacing: 1px; */
+    width: 360px;
+    /* height: 90px; */
+    font-weight: 30%;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: small;
+    font-size: 22px;
+    background-color: rgba(75, 76, 77, 0.836);
+    
+
+}
+
+.cheese {
+    text-align: center;
+    /* font-size: 92%; */
+    /* letter-spacing: 1px; */
+    width: 360px;
+    /* height: 90px; */
+    font-weight: 60%;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 24px;
+    /* background-color: orange; */
+
+
+
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: ; */
+    gap: 20px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    background-color: rgb(32, 31, 31);
+    color: #ffffff;
+    height: 60%;
+
+}
+
+.technique {
+    flex: 1;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    /* width: 800px; */
+    /* padding-left: 130px; */
+    /* background-color: yellowgreen; */
+    /* background-color: rgba(75, 76, 77, 0.836); */
+    background-color: rgb(32, 31, 31);
+
+}
+
+.prepared2 {
+    flex: 1;
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 29px;
+    /* width: 80px; */
+    /* padding-left: 80px; */
+    /* margin: 50px; */
+    /* background-color: yellow; */
+    /* background-color: rgba(75, 76, 77, 0.836); */
+    background-color: rgb(32, 31, 31);
+
+}
+.headng{
+    font-size: 47px;
+
+}
+
+.innovation {
+    flex: 1;
+    text-align: center;
+    font-size: 29px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    background-color: rgb(32, 31, 31);
+
+    /* background-color: rgba(75, 76, 77, 0.836); */
+    /* font-size: small; */
+
+    /* width: 800px; */
+    /* background-color: rebeccapurple; */
+    /* padding-right: 80px; */
+}
+
+.intro {
+    /* text-align: center; */
+    line-height: 35px;
+    font-size: 22px;
+    font-size: 20px;
+
+}
+
+li:hover {
+    color: red;
+    cursor: pointer;
+
+}
+
+
+form {
+    font-size: 20px;
+    background-color: rgba(122, 124, 138, 0.884);
+    color: rgba(223, 240, 234, 0.897);
+    /* height: 80%; */
+    padding: 4% 10%;
+}
+
+input {
+    /* background: transparent; */
+    color: rgb(11, 19, 26);
+    text-align: center;
+    width: 18%;
+    border: 3% white;
+
+}
+
+.fbB {
+    background: url(fb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex: 1; */
+    width: 100%;
+    height: 110%;
+    /* background-color: red; */
+    /* padding-right: 10; */
+    /* margin: auto; */
+}
+.our{
+    position: relative;
+}
+  
+  
+.cont {
+    position: absolute;
+    /* flex-direction: column; */
+    color: rgb(229, 255, 0);
+    background-color: rgba(164, 168, 168, 0.63);
+    list-style: none;
+    display: none;
+    /* visibility: hidden; */
+
+}
+.cont:hover  {
+    display: block;
+  }
+
+
+.lab {
+    background: url(chick.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    /* background-position: 110px; */
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex: 1; */
+    width: 100%;
+    height: 455px;
+    /* font-size: small; */
+}
+
+.labSer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.labContainer {
+    padding: 75px;
+}
+
+
+.send {
+    /* padding-top: 5%; */
+    border: 15px solid rgb(255, 255, 255);
+    /* border-color: rgba(26, 27, 27, 0.466); */
+}
+
+.img2 {
+    border: 10px solid red;
+}
+
+.value img {
+    float: right;
+    height: 370px;
+    padding: 0% 7%;
+    padding-bottom: 9%;
+}
+
+.value {
+    font-size: 23px;
+    padding: 0% 5%;
+}
+.value2 img {
+    float: left;
+    height: 370px;
+    padding: 0% 7%;
+}
